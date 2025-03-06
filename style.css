@@ -131,3 +131,9 @@ input[type="text"] {
     font-size: 24px;
     color: #444;
 }
+
+.vlog-link {
+    text-decoration: none; /* Remove underline */
+    color: inherit; /* Keep the text color same */
+    display: block; /* Ensure it behaves like a block */
+}
