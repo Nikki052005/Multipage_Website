@@ -1,0 +1,133 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Body styling */
+body {
+    background: linear-gradient(rgba(255, 255, 255, 0.4), rgba(255, 255, 255, 0.4)), 
+                url('https://miro.medium.com/max/3840/1*ViIhHV3AJq-8Z-KUeCBZJg.jpeg'); /* Add your image URL */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Search and Login Section */
+.top-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+/* Search Bar */
+input[type="text"] {
+    width: 550px; /* Increase width as needed */
+    max-width: 100%; /* Ensures responsiveness */
+    padding: 12px;
+    border-radius: 20px;
+    border: 2px solid #FF6F61; /* Darker pink shade */
+    font-size: 16px;
+}
+
+/* Login & Sign In Buttons */
+.top-section a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 20px;
+    background-color: #FF6F61;
+    transition: background 0.3s;
+}
+
+.top-section a:hover {
+    background-color: #fc4837;
+}
+
+/* Large Intro Box */
+.intro-box {
+    background: rgba(255, 255, 255, 0.8); /* Slight transparency */
+    padding: 80px; /* More spacious */
+    margin: 100px auto 20px;
+    width: 90%;
+    max-width: 1100px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.15);
+    text-align: center;
+}
+
+/* Funky Font for Title */
+.intro-box h1 {
+    font-size: 50px;
+    font-family: 'Pacifico', cursive; /* Playful handwritten font */
+    color: #FF6F61; /* Warm, energetic shade */
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+/* Stylish Subtitle */
+.intro-box h2 {
+    font-size: 28px;
+    font-family: 'Poppins', sans-serif; /* Modern & stylish */
+    color: #444;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+/* Improved Paragraph Styling */
+.intro-box p {
+    font-size: 22px;
+    font-family: 'Quicksand', sans-serif; /* Friendly & readable */
+    color: #555;
+    line-height: 1.8; /* Better readability */
+    max-width: 900px;
+    margin: auto;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@400;700&family=Quicksand:wght@400;600&display=swap');
+
+/* Vlog Container */
+.vlog-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+/* Vlog Boxes */
+.vlog-box {
+    background: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 90%;
+    max-width: 600px;
+    border: 3px solid #ddd;
+    transition: transform 0.3s;
+}
+
+.vlog-box:hover {
+    transform: translateY(-5px);
+}
+
+/* Vlog Images */
+.vlog-box img {
+    width: 100%;
+    height: 300px;
+    border-radius: 15px;
+}
+
+/* Vlog Titles */
+.vlog-box h3 {
+    margin-top: 15px;
+    font-size: 24px;
+    color: #444;
+}
